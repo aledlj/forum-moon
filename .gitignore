@@ -1,2 +1,10 @@
 /config.moon
 /config.lua
+*.lua
+/nginx.conf.compiled
+client_body_temp/
+fastcgi_temp/
+logs/
+proxy_temp/
+scgi_temp/
+uwsgi_temp/
