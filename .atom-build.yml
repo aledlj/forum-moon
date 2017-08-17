@@ -1,0 +1,22 @@
+cmd: "moonc"
+name: "Moonscript"
+args:
+    - "{FILE_ACTIVE_NAME}"
+# sh: true,
+cwd: "{FILE_ACTIVE_PATH}"
+# env:
+#   VARIABLE1: "VALUE1"
+#   VARIABLE2: "VALUE2"
+# errorMatch:
+#     - /^(?:line)? \[?(\d+)]?(?:: (.+))
+# #   - ^regexp2$
+# warningMatch:
+#     - /^(?:line)? \[?(\d+)]?(?:: (.+))
+#     - /^(?:line)? \[?(\d+)]?(?:: (.+))
+# keymap: <keymap string>
+# atomCommandName: namespace:command
+# targets:
+#   extraTargetName:
+#       cmd: "<command to execute>"
+#       args:
+#       # (any previous options are viable here except `targets` itself)
