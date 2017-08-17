@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MPlus';
+    src: url('mplus-1c-thin.ttf');
+    font-weight:100;
+}
+
+@font-face {
+    font-family: 'MPlus';
+    src: url('mplus-1c-light.ttf');
+    font-weight:300;
+}

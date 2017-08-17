@@ -1,0 +1,203 @@
+.jGrowl {
+  z-index: 9999;
+  color: #181818;
+  /*font-size: 0.85rem;*/
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  position: fixed;
+  padding-bottom:0px;
+}
+
+.jGrowl-message{
+  word-break: break-word;
+}
+
+.jGrowl.top-left {
+  left: 0px;
+  top: 0px;
+}
+.jGrowl.top-right {
+  right: 0px;
+  top: 0px;
+}
+.jGrowl.bottom-left {
+  left: 0px;
+  bottom: 0px;
+}
+.jGrowl.bottom-right {
+  right: 0px;
+  bottom: 0px;
+}
+.jGrowl.center {
+  top: 0px;
+  width: 50%;
+  left: 25%;
+}
+.jGrowl.center .jGrowl-notification,
+.jGrowl.center .jGrowl-closer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.jGrowl-notification {
+  background-color: #FFFFFF;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  zoom: 1;
+  width: 300px;
+  padding: 23px;
+  margin: 15px;
+  margin-top: 0px;
+  margin-bottom:20px;
+  text-align: left;
+  display: none;
+  /*border-radius: 3px;*/
+  word-break: break-all;
+  min-height: 35px;
+  /*box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);*/
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.25);
+  /*transition: opacity 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955);*/
+}
+
+/*.jGrowl-notification:hover {
+  opacity: 1;
+}*/
+
+
+.jGrowl-notification .ui-state-highlight,
+.jGrowl-notification .ui-widget-content .ui-state-highlight,
+.jGrowl-notification .ui-widget-header .ui-state-highlight {
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+}
+.jGrowl-notification .jGrowl-header {
+  font-weight: bold;
+  font-size: .85em;
+}
+.jGrowl-notification .jGrowl-close {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  z-index: 99;
+  float: right;
+  /*font-weight: bold;*/
+  /*font-size: 0.85rem;*/
+  cursor: pointer;
+  outline: none;
+}
+.jGrowl-closer {
+  /*background-color: #000000;*/
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  zoom: 1;
+  /*width: 250px;*/
+  padding: 10px;
+  margin: 10px;
+  /*display: none;*/
+  border-radius: 5px;
+  word-break: break-all;
+  padding-top: 0px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  font-size: .9em;
+  font-weight: bold;
+  text-align: center;
+}
+.jGrowl-closer .ui-state-highlight,
+.jGrowl-closer .ui-widget-content .ui-state-highlight,
+.jGrowl-closer .ui-widget-header .ui-state-highlight {
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+}
+/** Hide jGrowl when printing **/
+@media print {
+  .jGrowl {
+    display: none;
+  }
+}
+
+/*.jGrowl > .ui-state-highlight {
+    background-color: inherit;
+    color: inherit;
+    border: inherit;
+}
+*/
+
+#jGrowl-bar-persistent {
+  /*left: 200px;
+  z-index: 5;*/
+  z-index: 10;
+  position: fixed;
+  bottom: -46px;
+  width: 100%;
+}
+
+#jGrowl-bar-persistent > .jGrowl {
+  color: #F0F0F0; /*#FFFFFF;*/
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  position: static;
+  padding-bottom:0px;
+  margin: 0px;
+  bottom:0px;
+  /*width:100%;*/
+}
+
+#jGrowl-bar-persistent > .jGrowl > .jGrowl-notification {
+  background-color: #353535;
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  zoom: 1;
+  width: auto;
+  padding: 15px;
+  /* margin: 15px; */
+  margin: 0;
+  text-align: left;
+  /* display: none; */
+  word-break: break-all;
+  min-height: 0;
+  /* bottom:-46px; */
+  transform:translateY(46px);
+  /*box-shadow: 0 4px 6px -1px rgba(0,0,0,0.25);*/
+}
+
+#jGrowl-bar-admin {
+  position: absolute;
+  z-index: 10;
+  bottom: -46px;
+  width: 100%;
+}
+
+#jGrowl-bar-admin > .jGrowl {
+  color: #F0F0F0; /*#FFFFFF;*/
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  position: static;
+  padding-bottom:0px;
+  margin: 0px;
+  bottom:0px;
+  /*width:100%;*/
+}
+
+#jGrowl-bar-admin > .jGrowl > .jGrowl-notification {
+  background-color: #353535;
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=(0.9*100));
+  zoom: 1;
+  width: auto;
+  padding: 15px;
+  /* margin: 15px; */
+  margin: 0;
+  text-align: left;
+  /* display: none; */
+  word-break: break-all;
+  min-height: 0;
+  /* bottom:-46px; */
+  transform:translateY(46px);
+  /*box-shadow: 0 4px 6px -1px rgba(0,0,0,0.25);*/
+}

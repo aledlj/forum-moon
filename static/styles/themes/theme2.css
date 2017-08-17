@@ -1,0 +1,345 @@
+body {
+    background-color: #151723;
+}
+
+p,
+a,
+li {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+#bg {
+    z-index: -1;
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 53%;
+    min-height: 50%;
+    background-image: url(/images/DeathStar10-18.jpg);
+    opacity: 1;
+}
+
+.panelcontents {
+    background-color: #3C3C3C;
+}
+
+.paneltext {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+.collapsetext {
+    color: #000;
+}
+
+code {
+    color: #000;
+}
+
+.banbox {
+    background-color: #343434;
+}
+
+.banboxtext {
+    background-color: #2C3442;
+}
+
+.bangavel {
+    color: #A87768;
+}
+
+.fakeitem {
+    background-color: #666;
+}
+
+.fakeitem:hover {
+    background-color: #009FC1;
+}
+
+table a {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+td {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+.topic-post {
+    border-bottom: solid 1px #666;
+}
+
+#header {
+    color: #F3F3F3;
+}
+
+.subheader {
+    color: #F3F3F3;
+}
+
+#footer {
+    color: #F0F0F0;
+}
+
+.relativetime {
+    color: #EEE;
+}
+
+.post-reltime {
+    color: #DDD;
+}
+
+.user-post a {
+    color: #F0F0F0;
+}
+
+.post-content p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F0F0F0;
+}
+
+.form-text {
+    color: #F0F0F0;
+}
+
+
+/* post markdown styles */
+
+blockquote {
+    border-left: 3px solid #CCC;
+}
+
+.post-content blockquote p {
+    color: #CCC;
+}
+
+#settingsbuttoncontainer {
+    background: #333;
+    color: #FFF;
+}
+
+.settingscatbox {
+    background: #333;
+    color: #FFF;
+}
+
+.settingscatbox:hover {
+    background: #666;
+}
+
+.settingscatboxend {
+    background: #333;
+    color: #FFF;
+}
+
+.settingstext {
+    color: #FFF;
+}
+
+#headerdockicon {
+    color: #FFF;
+}
+
+#adminsidebarcontainer .item {
+    background-color: #333;
+}
+
+.adminitem {
+    background-color: #868C96;
+}
+
+.adminitem:hover,
+.adminitem-a:hover {
+    background-color: #99A8C0;
+}
+
+#testbox {
+    background-color: #2C3442;
+}
+
+.username {
+    background-color: #6E758C;
+    color: #FFF;
+}
+
+.panelsubheader {
+    color: #FFF;
+}
+
+#settingscontainer {
+    background-color: inherit;
+}
+
+#adminsidebar {
+    background-color: #374257;
+    /*#3D4F6B*/
+}
+
+#adminheader {
+    background-color: #506186;
+}
+
+
+/*#adminheadertext {
+  color: #FFF;
+}*/
+
+#adminsection {
+    background-color: #2C3442;
+}
+
+#adminsectiontext {
+    color: #FFF;
+}
+
+#menu {
+    background-color: #2C3442;
+}
+
+.item {
+    background-color: #6E758C;
+}
+
+.item:hover,
+.item:focus {
+    background-color: #8A90A3;
+}
+
+th {
+    /*background-color: #ED5079;*/
+    background-color: #506186;
+}
+
+#content {
+    background-color: #2C3442;
+}
+
+
+/*#footer {
+  background-color: #222;
+}*/
+
+#footer {
+    background-color: rgba(44, 52, 66, 0.55);
+}
+
+#footer:hover {
+    background-color: rgba(44, 52, 66, 1);
+}
+
+.indexcat:nth-child(2n+2) {
+    background-color: #2C3442;
+}
+
+.indexcat:nth-child(2n+1) {
+    background-color: #374257;
+}
+
+/*.indexcat {
+    border-bottom: solid 1px #666;
+}
+*/
+
+/*.nonew {
+  background-color: #FAE4EC;
+}
+
+.notifs {
+  background-color: #FD7B9D;
+}*/
+
+
+/*#settingscontainer {
+  background-color: #FFE5EF;
+}*/
+
+
+/*.panelcontents {
+  background-color: #FF628B;
+}*/
+
+
+/*#settingsbuttoncontainer {
+  background: #FF628B;
+}*/
+
+
+/*.settingscatbox {
+  background: #FF628B;
+}*/
+
+.inputbox {
+    color: #000;
+}
+
+.inputbutton {
+    color: #000;
+}
+
+.category:nth-child(2n+1) {
+    background-color: #374257;
+}
+
+.category:nth-child(2n+2) {
+    background-color: #2C3442;
+}
+
+.topic:nth-child(2n+1) {
+    background-color: #374257;
+}
+
+.topic:nth-child(2n+2) {
+    background-color: #2C3442;
+}
+
+.dottedunderline {
+    border-bottom: 1px dotted #F0F0F0;
+}
+
+.menubutton {
+    color: #CFD4DB;
+}
+
+.menubutton:hover {
+    background-color: #47536b;
+}
+
+.menubuttonactivated, .menubuttonactivated:hover {
+    background-color: #1f242f;
+}
+
+
+#menumobile {
+    background-color: #2C3442;
+    border-top: solid 1px #282F3C;
+}
+
+#menumobile a {
+    color: #F0F0F0;
+}
+
+.jGrowl-notification {
+    background-color: #2C3442 !important;
+}
+
+.jGrowl {
+    color: #F0F0F0 !important;
+}

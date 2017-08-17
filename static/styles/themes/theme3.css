@@ -1,0 +1,316 @@
+body {
+    background-image: none;
+    background-color: #333;
+}
+
+p,
+a,
+li,
+div {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+#bg img {
+    opacity: 0;
+}
+
+.panelcontents {
+    background-color: #3C3C3C;
+}
+
+.paneltext {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+#settingscontainer {
+    background-color: inherit;
+}
+
+.collapsetext {
+    color: #000;
+}
+
+code {
+    color: #000;
+}
+
+.banbox {
+    background-color: #343434;
+}
+
+.banboxtext {
+    background-color: #444;
+}
+
+.bangavel {
+    color: #A87768;
+}
+
+.fakeitem {
+    background-color: #666;
+}
+
+.fakeitem:hover {
+    background-color: #009FC1;
+}
+
+table a {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+td {
+    /*color:#FFF;*/
+    color: #F0F0F0;
+}
+
+.topic-post {
+    border-bottom: solid 1px #666;
+}
+
+#header {
+    color: #F3F3F3;
+}
+
+.subheader {
+    color: #F3F3F3;
+}
+
+#footer {
+    color: #F0F0F0;
+}
+
+.relativetime {
+    color: #EEE;
+}
+
+.post-reltime {
+    color: #DDD;
+}
+
+.user-post a {
+    color: #F0F0F0;
+}
+
+.post-content p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F0F0F0;
+}
+
+.form-text {
+    color: #F0F0F0;
+}
+
+
+/* post markdown styles */
+
+blockquote {
+    border-left: 3px solid #CCC;
+}
+
+.post-content blockquote p {
+    color: #CCC;
+}
+
+#settingsbuttoncontainer {
+    background: #333;
+    color: #FFF;
+}
+
+.settingscatbox {
+    background: #333;
+    color: #FFF;
+}
+
+.settingscatbox:hover {
+    background: #666;
+}
+
+.settingscatboxend {
+    background: #333;
+    color: #FFF;
+}
+
+.settingstext {
+    color: #FFF;
+}
+
+#headerdockicon {
+    color: #FFF;
+}
+
+#adminsidebarcontainer .item {
+    background-color: #333;
+}
+
+.adminitem {
+    background-color: #666;
+}
+
+.adminitem:hover,
+.adminitem-a:hover {
+    background-color: #888;
+}
+
+#testbox {
+    background-color: #444;
+}
+
+.username {
+    background-color: #666;
+    color: #FFF;
+}
+
+.panelsubheader {
+    color: #FFF;
+}
+
+#adminsidebar {
+    background-color: #333;
+}
+
+
+#adminheader {
+    background-color: #666;
+}
+
+
+/*#adminheadertext {
+    color: #FFF;
+}*/
+
+#adminsection {
+    background-color: #424242;
+}
+
+#adminsectiontext {
+    color: #FFF;
+}
+
+#menu {
+    background-color: #444;
+}
+
+.item {
+    background-color: #666;
+}
+
+.item:hover,
+.item:focus {
+    background-color: #7F7F7F;
+}
+
+th {
+    /*background-color: #ED5079;*/
+    background-color: #A13E48;
+}
+
+.top {
+    background-color: #222;
+}
+
+#content {
+    background-color: #444;
+}
+
+
+/*#footer {
+    background-color: #222;
+}*/
+
+#footer {
+    background-color: rgba(68, 68, 68, 0.55);
+}
+
+#footer:hover {
+    background-color: rgba(68, 68, 68, 1);
+}
+
+.indexcat:nth-child(2n+2) {
+    background-color: #474747;
+}
+
+.indexcat:nth-child(2n+1) {
+    background-color: #555;
+}
+
+.indexcat {
+    border-bottom: solid 1px #666;
+}
+
+
+/*.nonew {
+    background-color: #FAE4EC;
+}
+
+.notifs {
+    background-color: #FD7B9D;
+}*/
+
+
+/*#settingscontainer {
+    background-color: #FFE5EF;
+}*/
+
+
+/*.panelcontents {
+    background-color: #FF628B;
+}*/
+
+
+/*#settingsbuttoncontainer {
+    background: #FF628B;
+}*/
+
+
+/*.settingscatbox {
+    background: #FF628B;
+}*/
+
+.inputbox {
+    color: #000;
+}
+
+.inputbutton {
+    color: #000;
+}
+
+.category:nth-child(2n+1) {
+    background-color: #555;
+}
+
+.category:nth-child(2n+2) {
+    background-color: #444;
+}
+
+.dottedunderline {
+    border-bottom: 1px dotted #F0F0F0;
+}
+
+.menubutton {
+    color: #F0F0F0;
+}
+
+#menumobile {
+    background-color: #444;
+    border-top: solid 1px #555;
+}
+
+#menumobile a {
+    color: #F0F0F0;
+}
+
+.jGrowl-notification {
+    background-color: #444 !important;
+}
+
+.jGrowl {
+    color: #F0F0F0 !important;
+}

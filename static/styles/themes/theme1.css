@@ -1,0 +1,146 @@
+body {
+    background-color: #FF6699;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+p,
+a {
+    color: #181818;
+}
+
+#bg {
+    z-index: -1;
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 53%;
+    min-height: 50%;
+    background-image: url(https://abs.twimg.com/images/themes/theme11/bg.gif);
+    opacity: 1;
+    /*content:url(https://abs.twimg.com/images/themes/theme11/bg.gif);*/
+}
+
+.form-text {
+    color: #181818;
+}
+
+#adminsidebar {
+    background-color: #EDC6D5;
+}
+
+#adminheader {
+    background-color: #FD7B9D;
+}
+
+#adminheadertext {
+    color: #FFF;
+}
+
+#header {
+    color: #181818;
+}
+
+.subheader {
+    color: #181818;
+}
+
+#menu {
+    background-color: #FFD0E2;
+}
+
+.item {
+    background-color: #FD7B9D;
+}
+
+.item:hover {
+    background-color: #FC4978;
+}
+
+th {
+    background-color: #ED5079;
+}
+
+#content {
+    background-color: #FFD0E2;
+}
+
+#footer {
+    background-color: rgba(255, 208, 226, 0.55);
+}
+
+#footer:hover {
+    background-color: rgba(255, 208, 226, 1);
+}
+
+.indexcat:nth-child(2n+2) {
+    background-color: #EDC6D5;
+}
+
+.indexcat:nth-child(2n+1) {
+    background-color: #FFD0E2;
+}
+
+.category:nth-child(2n+2) {
+    background-color: #EDC6D5;
+}
+
+.category:nth-child(2n+1) {
+    background-color: #FFD0E2;
+}
+
+.indexcat {
+    border-bottom: solid 1px #E2BECC;
+    border-bottom: solid 1px #E2BECC;
+}
+
+.nonew {
+    background-color: #FAE4EC;
+}
+
+.notifs {
+    background-color: #FD7B9D;
+}
+
+.username {
+    background-color: #FAE4EC;
+    color: #181818;
+}
+
+#settingscontainer {
+    background-color: #FFE5EF;
+}
+
+
+/*.panelcontents {
+    background-color: #FF628B;
+}*/
+
+
+/*#settingsbuttoncontainer {
+    background: #FF628B;
+}*/
+
+
+/*.settingscatbox {
+    background: #FF628B;
+}*/
+
+#testbox {
+    background-color: #FFD0E2;
+}
+
+.jGrowl-notification {
+    background-color: #FFD0E2 !important;
+}
