@@ -10,3 +10,8 @@ scgi_temp/
 uwsgi_temp/
 .DS_Store
 Thumbs.db
+/start.sh
+images/
+.sass-cache/
+
+debugger\.moon
