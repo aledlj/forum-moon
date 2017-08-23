@@ -12,3 +12,6 @@ uwsgi_temp/
 Thumbs.db
 /start.sh
 images/
+.sass-cache/
+
+debugger\.moon
