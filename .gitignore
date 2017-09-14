@@ -13,5 +13,9 @@ Thumbs.db
 /start.sh
 images/
 .sass-cache/
+static/images/
 
 debugger\.moon
+/start.sh
+/stop.sh
+/.atom-build.yml

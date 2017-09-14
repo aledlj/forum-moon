@@ -12,11 +12,11 @@ topbar_dropdownmenu_list = {
     testboxbutton: => li -> a onClick: "testBox(); return false", href: "#", "Test box"
 }
 
-class LayoutNormal extends html.Widget
+class LayoutFatalError extends html.Widget
     content: =>
         html_5 ->
             head ->
-                title @page_title
+                title "Error" - @page_title
                 meta charset: "UTF-8", "http-equiv": "Content-type", content: "text/html;charset=UTF8"
                 meta name: "keywords", content: "vidze, forum"
                 meta name: "viewport", content: "width=device-width, initial-scale=1.0"
@@ -25,22 +25,15 @@ class LayoutNormal extends html.Widget
                 script "hljs.initHighlightingOnLoad();"
                 link rel: "stylesheet", "data-turbolinks-track": "reload", href: "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css"
 
-                for file in *static_files.js
-                    script "data-turbolinks-track": "reload", src: file
+                -- for file in *static_files.js
+                --     script "data-turbolinks-track": "reload", src: file
                 for file in *static_files.css
-                    link rel: 'stylesheet', "data-turbolinks-track": "reload", href: file
+                    link async: true, rel: 'stylesheet', "data-turbolinks-track": "reload", href: file
                 for file in *static_files.fonts
                     link async: true, "type": "text/css", rel: 'stylesheet', "data-turbolinks-track": "reload", href: file
 
-                -- if @error
-                --     style "body {background-image: none;}"
-
-            body ->
-                div "data-turbolinks-permanent": true, id: 'data'
-                div "data-turbolinks-permanent": true, id: 'clippycontainer'
-                div "data-turbolinks-permanent": true, id: 'floatingcontainer'
-
-                div id: "bg", -> img alt: ""
+            body id: "fatal-error", ->
+                text "a"
 
                 div id: "pagewrapper", ->
                     div id: "media-res" -- tell js what the @media is -->
@@ -62,12 +55,7 @@ class LayoutNormal extends html.Widget
                         div role: "button", class: "topbar-dropdownmenu-button", onclick: "mobilemenu(); return false;", -> i class: "fa fa-bars", "aria-hidden": "true"
                     --
                     -- no dropdown menu yet
-                    noscript ->
-                        "Please enable Javascript."
-                        raw "<style>content{display:none;}</style>"
-
                     div id: "content", ->
-                        div class: "subheader", -> @content_for "subheader"
                         @content_for "inner"
 
                 div id: "footer", -> div id: "footerinside", -> p ->

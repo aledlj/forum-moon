@@ -4,5 +4,5 @@ import Model from require "lapis.db.model"
 class Posts extends Model
     @relations: {
         {"topic", belongs_to: "Topics"}
-        {"user", belongs_to: "Users"}
+        {"author", belongs_to: "Users", key: "id"}
     }
